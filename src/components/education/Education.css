@@ -1,4 +1,4 @@
-.container.testimonial__container {
+.container.education__container {
   width: 40%;
   padding-bottom: 4rem;
 }
@@ -12,7 +12,11 @@
   border: 0.4rem solid var(--color-primary-variant);
 }
 
-.testimonial {
+.icon__style {
+  font-size: 3rem;
+}
+
+.education {
   background: var(--color-bg-variant);
   text-align: center;
   padding: 2rem;
@@ -35,7 +39,7 @@
 /* ====== MEDIA QUIRIES (MEDIUM DEVICES) ====== */
 
 @media screen and (max-width: 1024px) {
-  .container.testimonial__container {
+  .container.education__container {
     width: 60%;
   }
 }
@@ -43,7 +47,7 @@
 /* ====== MEDIA QUIRIES (SMALL DEVICES) ====== */
 
 @media screen and (max-width: 600px) {
-  .container.testimonial__container {
+  .container.education__container {
     width: var(--container-width-sm);
   }
 

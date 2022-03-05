@@ -23,10 +23,26 @@
   overflow: hidden;
   transform: rotate(10deg);
   transition: var(--transition);
+  width: 100%;
+  aspect-ratio: 1/1;
 }
 
 .about__me-image:hover {
   transform: rotate(0);
+}
+
+.about__text {
+  color: var(--color-white);
+  margin-top: 2rem;
+}
+
+.text__highlight {
+  background: transparent;
+  color: var(--color-primary);
+}
+
+.btn__style {
+  margin-top: 2rem;
 }
 
 .about__cards {

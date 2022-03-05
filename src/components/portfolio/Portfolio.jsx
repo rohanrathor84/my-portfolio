@@ -1,6 +1,8 @@
 import React from "react";
 import "./Portfolio.css";
-import IMG from "../../assets/portfolio.jpg";
+import uberEats from "../../assets/uberEats.png";
+import instagram from "../../assets/instagram.png";
+import portfolio from "../../assets/myPortfolio.png";
 
 const Portfolio = () => {
   return (
@@ -10,18 +12,24 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         <article className="portfolio__items">
           <div className="portfolio__item-image">
-            <img src={IMG} alt="" />
+            <img src={uberEats} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Uber eats clone with React native</h3>
 
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="_blank">
+            <a
+              href="https://github.com/rohanrathor84/uberEatsMobileClone"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
               Github
             </a>
             <a
-              href="https://dribbble.com/Alien_pixels"
+              href="https://github.com/rohanrathor84/uberEatsMobileClone"
               className="btn btn primary"
               target="_blank"
+              rel="noreferrer"
             >
               Live Demo
             </a>
@@ -29,17 +37,23 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__items">
           <div className="portfolio__item-image">
-            <img src={IMG} alt="" />
+            <img src={instagram} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Instagram clone with React native</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="_blank">
+            <a
+              href="https://github.com/rohanrathor84/igClone"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
               Github
             </a>
             <a
-              href="https://dribbble.com/Alien_pixels"
+              href="https://github.com/rohanrathor84/igClone"
               className="btn btn primary"
               target="_blank"
+              rel="noreferrer"
             >
               Live Demo
             </a>
@@ -47,71 +61,23 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__items">
           <div className="portfolio__item-image">
-            <img src={IMG} alt="" />
+            <img src={portfolio} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>My portfolio designed with ReactJs</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="_blank">
-              Github
-            </a>
             <a
-              href="https://dribbble.com/Alien_pixels"
-              className="btn btn primary"
+              href="https://github.com/rohanrathor84/my-portfolio"
+              className="btn"
               target="_blank"
+              rel="noreferrer"
             >
-              Live Demo
-            </a>
-          </div>
-        </article>
-        <article className="portfolio__items">
-          <div className="portfolio__item-image">
-            <img src={IMG} alt="" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="_blank">
               Github
             </a>
             <a
-              href="https://dribbble.com/Alien_pixels"
+              href="https://github.com/rohanrathor84/my-portfolio"
               className="btn btn primary"
               target="_blank"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
-        <article className="portfolio__items">
-          <div className="portfolio__item-image">
-            <img src={IMG} alt="" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="_blank">
-              Github
-            </a>
-            <a
-              href="https://dribbble.com/Alien_pixels"
-              className="btn btn primary"
-              target="_blank"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
-        <article className="portfolio__items">
-          <div className="portfolio__item-image">
-            <img src={IMG} alt="" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="_blank">
-              Github
-            </a>
-            <a
-              href="https://dribbble.com/Alien_pixels"
-              className="btn btn primary"
-              target="_blank"
+              rel="noreferrer"
             >
               Live Demo
             </a>

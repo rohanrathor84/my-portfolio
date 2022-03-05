@@ -62,5 +62,13 @@ footer a {
 
   .footer__socials {
     margin-bottom: 2.6rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    width: 60%;
+  }
+
+  .footer__view {
+    display: flex;
+    justify-content: center;
   }
 }

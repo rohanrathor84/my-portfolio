@@ -1,5 +1,5 @@
 header {
-  height: 100vh;
+  height: 130vh;
   padding-top: 7rem;
   overflow: hidden;
 }
@@ -31,10 +31,20 @@ header {
   bottom: 3rem;
 }
 
+/* .header__socials a {
+  color: var(--color-primary2);
+  transition: var(--transition);
+  font-size: 1.1rem;
+}
+
+.header__socials a:hover {
+  color: var(--color-white);
+} */
+
 .header__socials::after {
   content: "";
-  width: 1px;
-  height: 2rem;
+  width: 1.2px;
+  height: 5rem;
   background: var(--color-primary);
 }
 
@@ -59,25 +69,18 @@ header {
   right: -2.3rem;
   bottom: 5rem;
   transform: rotate(90deg);
-  font-weight: 300;
+  font-weight: 400;
   font-size: 0.9rem;
 }
 
 /* ====== MEDIA QUIRIES (MEDIUM DEVICES) ====== */
 
 @media screen and (max-width: 1024px) {
-  header {
-    height: 68vh;
-  }
 }
 
 /* ====== MEDIA QUIRIES (SMALL DEVICES) ====== */
 
 @media screen and (max-width: 600px) {
-  header {
-    height: 100vh;
-  }
-
   .header__socials,
   .scroll__down {
     display: none;
